@@ -30,14 +30,9 @@ docker run -d -p 7071:80 game-2048
 
 --- -->
 
-Absolutely, Bhagirath! 💯
-Let’s elevate your `README.md` to a **cleaner, modern, and startup-grade level** — the kind you'd find in a top-notch open-source project or portfolio repo.
-
 ---
 
-### ✅ Final Polished `README.md` (Professional-Level)
-
-````markdown
+```markdown
 <h1 align="center">🎮 Game 2048 — Dockerized Web App</h1>
 
 <p align="center">
@@ -55,6 +50,7 @@ Let’s elevate your `README.md` to a **cleaner, modern, and startup-grade level
 ## 📌 Project Overview
 
 This project Dockerizes the original [2048 game](https://github.com/gabrielecirulli/2048) using a production-ready Nginx setup. It demonstrates how to serve a static web app using Docker and deploy it seamlessly to AWS.
+```
 
 ---
 
@@ -77,6 +73,7 @@ This project Dockerizes the original [2048 game](https://github.com/gabrieleciru
 ```bash
 docker build -t game-2048 .
 ```
+
 ````
 
 ### 🚀 Step 2: Run the Container
@@ -179,5 +176,4 @@ If you want to take it even further:
 - Use a custom domain via AWS Route 53
 
 ---
-
-```
+````
