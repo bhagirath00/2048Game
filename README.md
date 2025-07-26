@@ -1,12 +1,8 @@
-# 🎮 Game 2048 — Dockerized Web App
+# Game-2048 — Dockerized Web App 🎮
 
 A minimal, containerized version of the legendary **2048** browser game. Built with **Docker**, served with **Nginx**, and deployed to **AWS Elastic Beanstalk**.
 
-<!-- <p align="Left"> -->
-
 🔗 <a href="http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/" target="_blank"><strong>Live Demo</strong></a>
-
-<!-- </p> -->
 
 ---
 
@@ -30,8 +26,10 @@ This project Dockerizes the original [2048 game](https://github.com/gabrieleciru
 
 ## 💡 Why This Project?
 
-This project was built to learn and showcase Dockerized deployments of static web applications.  
+```
+This project was built to learn and showcase Dockerized deployments of static web applications.
 It serves as a foundational DevOps example using Nginx, Docker, and AWS.
+```
 
 ---
 
