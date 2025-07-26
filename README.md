@@ -26,10 +26,8 @@ This project Dockerizes the original [2048 game](https://github.com/gabrieleciru
 
 ## 💡 Why This Project?
 
-```
 This project was built to learn and showcase Dockerized deployments of static web applications.
 It serves as a foundational DevOps example using Nginx, Docker, and AWS.
-```
 
 ---
 
