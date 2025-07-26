@@ -28,7 +28,8 @@
 ### 🖼️ Home Screen (Localhost)
 
 <p align="center">
-  <img src="![alt text](image.png)" width="700" alt="2048 game running locally">
+<img src="image.png" width="400"/>
+  <!-- <img src="![alt text](image.png)" width="700" alt="2048 game running locally"> -->
   <br/>
   <i>2048 Game running on Docker (localhost)</i>
 </p>
@@ -37,7 +38,8 @@
 ### 🖼️ AWS Deployment
 
 <p align="center">
-  <img src="![alt text](image-1.png)" width="700" alt="2048 game on AWS">
+<img src="image-1.png" width="400"/>
+  <!-- <img src="![alt text](image-1.png)" width="700" alt="2048 game on AWS"> -->
   <br/>
   <i>2048 Game hosted on AWS Elastic Beanstalk</i>
 </p>
@@ -47,7 +49,8 @@
 ### 🖼️ AWS Deployment
 
 <p align="center">
-  <img src="![alt text](image-2.png)" width="700" alt="2048 game on AWS">
+<img src="image-2.png" width="400"/>
+  <!-- <img src="![alt text](image-2.png)" width="700" alt="2048 game on AWS"> -->
   <br/>
   <i>2048 Game hosted on AWS Elastic Beanstalk</i>
 </p>
