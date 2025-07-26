@@ -89,3 +89,13 @@ If you found this helpful or learned something, please consider giving this repo
 — it helps others discover the project and supports my work.
 
 ```
+
+---
+
+## 📸 Screenshot
+
+<p align="center">
+  <img src="assets/image.png" width="300" alt="Game 2048 running in browser" />
+  <br/>
+  <i>2048 Game running via Docker container on AWS Elastic Beanstalk</i>
+</p>
