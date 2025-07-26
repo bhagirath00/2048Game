@@ -80,8 +80,9 @@ game-2048/
 Deployed using:
 - Elastic Beanstalk Docker environment
 - Single-container Docker deployment via AWS Console
-🔗 Live App: http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/
 ```
+
+🔗 Live App: http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/
 
 ---
 
