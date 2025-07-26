@@ -77,6 +77,9 @@ Deployed using:
 ---
 
 ⭐️ Support
+
+```plaintext
 If you found this helpful or learned something, please consider giving this repo a ⭐️ — it helps others discover the project and supports my work.
 
----
+
+```
