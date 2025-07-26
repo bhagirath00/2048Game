@@ -30,13 +30,12 @@ docker run -d -p 7071:80 game-2048
 
 --- -->
 
----
-
 ```markdown
 <h1 align="center">🎮 Game 2048 — Dockerized Web App</h1>
 
 <p align="center">
-  A minimal, containerized version of the legendary <b>2048</b> browser game. Built with <b>Docker</b>, served with <b>Nginx</b>, and deployed to <b>AWS Elastic Beanstalk</b>.
+  A minimal, containerized version of the legendary <b>2048</b> browser game. 
+  Built with <b>Docker</b>, served with <b>Nginx</b>, and deployed to <b>AWS Elastic Beanstalk</b>.
 </p>
 
 <p align="center">
@@ -44,13 +43,16 @@ docker run -d -p 7071:80 game-2048
     🔗 <b>Live Demo</b>
   </a>
 </p>
+```
 
 ---
 
 ## 📌 Project Overview
 
-This project Dockerizes the original [2048 game](https://github.com/gabrielecirulli/2048) using a production-ready Nginx setup. It demonstrates how to serve a static web app using Docker and deploy it seamlessly to AWS.
-```
+This project Dockerizes the original [2048 game](https://github.com/gabrielecirulli/2048) using a production-ready Nginx setup.
+It demonstrates how to serve a static web app using Docker and deploy it seamlessly to AWS.
+
+````
 
 ---
 
@@ -72,7 +74,7 @@ This project Dockerizes the original [2048 game](https://github.com/gabrieleciru
 
 ```bash
 docker build -t game-2048 .
-```
+````
 
 ````
 
