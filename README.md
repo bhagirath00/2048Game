@@ -54,3 +54,29 @@ game-2048/
 ```
 
 ---
+
+🐳 Dockerfile Breakdown
+
+```plaintext
+- Installs required dependencies
+- Downloads and unzips the 2048 game
+- Configures Nginx to serve it on port 80
+```
+
+---
+
+☁️ Deployment (AWS Elastic Beanstalk)
+
+````plaintext
+Deployed using:
+- Elastic Beanstalk Docker environment
+- Single-container Docker deployment via AWS Console
+🔗 Live App: http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/
+```
+---
+
+⭐️ Support
+If you found this helpful or learned something, please consider giving this repo a ⭐️ — it helps others discover the project and supports my work.
+
+---
+````
