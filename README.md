@@ -16,7 +16,7 @@ It demonstrates how to serve a static web app using Docker and deploy it seamles
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Tool/Service             | Purpose                       |
 | ------------------------ | ----------------------------- |
@@ -30,7 +30,7 @@ It demonstrates how to serve a static web app using Docker and deploy it seamles
 
 ## 🛠️ How to Run Locally
 
-### 🔨 Step 1: Build the Docker Image
+# 🔨 Step 1: Build the Docker Image
 
 ```bash
 docker build -t game-2048 .
