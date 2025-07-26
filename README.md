@@ -3,7 +3,7 @@
 A minimal, containerized version of the legendary **2048** browser game.  
 Built with **Docker**, served with **Nginx**, and deployed to **AWS Elastic Beanstalk**.
 
-<p align="center">
+<p align="Left">
   🔗 <a href="http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/" target="_blank"><strong>Live Demo</strong></a>
 </p>
 
