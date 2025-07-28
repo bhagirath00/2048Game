@@ -49,8 +49,6 @@ docker run -d -p 7071:80 game-2048
 
 ---
 
-📂 File Structure
-
 🐳 Dockerfile Breakdown
 
 ```plaintext
