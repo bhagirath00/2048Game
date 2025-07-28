@@ -1,58 +1,30 @@
-<!-- ## 📸 Screenshot
-
-<p align="center">
-  <img src="assets/image.png" width="300" alt="Game 2048 running in browser" />
-  <br/>
-  <i>2048 Game running via Docker container on AWS Elastic Beanstalk</i>
-</p>
----
-
-<p align="center">
-  <img src="assets/image1.png" width="300" alt="Game 2048 running in browser" />
-  <br/>
-  <i>2048 Game running via Docker container on AWS Elastic Beanstalk</i>
-</p>
-
----
-
-<p align="center">
-  <img src="assets/image2.png" width="300" alt="Game 2048 running in browser" />
-  <br/>
-  <i>2048 Game running via Docker container on AWS Elastic Beanstalk</i>
-</p>
-
---- -->
-
 ## 📸 Screenshots
 
-### 🖼️ Home Screen (Localhost)
+### -> Home Screen (Localhost)
 
 <p align="center">
-<img src="image.png" width="400"/>
-  <!-- <img src="![alt text](image.png)" width="700" alt="2048 game running locally"> -->
+<img src="image.png" width="250"/>
   <br/>
   <i>2048 Game running on Docker (localhost)</i>
 </p>
 ---
 
-### 🖼️ AWS Deployment
+### -> AWS Deployment
 
 <p align="center">
-<img src="image-1.png" width="400"/>
-  <!-- <img src="![alt text](image-1.png)" width="700" alt="2048 game on AWS"> -->
+<img src="image-3.png" width="250"/>
   <br/>
   <i>2048 Game hosted on AWS Elastic Beanstalk</i>
 </p>
 
 ---
 
-### 🖼️ AWS Deployment
+### -> AWS Deployment
 
 <p align="center">
-<img src="image-2.png" width="400"/>
-  <!-- <img src="![alt text](image-2.png)" width="700" alt="2048 game on AWS"> -->
+<img src="image-1.png" width="250"/>
   <br/>
-  <i>2048 Game hosted on AWS Elastic Beanstalk</i>
+  <i>2048 Game, Played and Won!!!!</i>
 </p>
 
 ---
