@@ -51,15 +51,6 @@ docker run -d -p 7071:80 game-2048
 
 📂 File Structure
 
-```plaintext
-game-2048/
-├── Dockerfile       # Defines how to build the container
-├── assets/          # Optional: screenshots, logos
-└── README.md        # This documentation
-```
-
----
-
 🐳 Dockerfile Breakdown
 
 ```plaintext

@@ -33,7 +33,7 @@
   <br/>
   <i>2048 Game running on Docker (localhost)</i>
 </p>
-----
+---
 
 ### 🖼️ AWS Deployment
 
