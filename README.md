@@ -1,82 +1,31 @@
-# Game-2048 — Dockerized Web App 🎮
+# Game-2048 🎮
 
-A minimal, containerized version of the legendary **2048** browser game. Built with **Docker**, served with **Nginx**, and deployed to **AWS Elastic Beanstalk**.
+A Dockerized version of the legendary 2048 browser game, served using Nginx Alpine.
 
-🔗 <a href="http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/" target="_blank"><strong>Live Demo</strong></a>
+![2048 Game running locally](assets/image-1.png)
 
----
+## Run Instantly (Docker Hub)
 
-## 📌 Project Overview
-
-This project Dockerizes the original [2048 game](https://github.com/gabrielecirulli/2048) using a production-ready Nginx setup. It demonstrates how to serve a static web app using Docker and deploy it seamlessly to AWS.
-
----
-
-## Tech Stack
-
-| Tool/Service             | Purpose                       |
-| ------------------------ | ----------------------------- |
-| 🐳 Docker                | Containerization              |
-| 🌐 Nginx                 | Static file web server        |
-| 🐧 Ubuntu 22.04          | Lightweight base image        |
-| ☁️ AWS Elastic Beanstalk | Production deployment         |
-| 🔧 curl, zip             | Game fetch & setup automation |
-
----
-
-## 💡 Why This Project?
-
-This project was built to learn and showcase Dockerized deployments of static web applications.
-It serves as a foundational DevOps example using Nginx, Docker, and AWS.
-
----
-
-## How to Run Locally
-
-### Step 1: `Build the Docker Image`
+You can pull and run the game directly from Docker Hub without building anything:
 
 ```bash
-docker build -t game-2048 .
+docker run -d -p 7071:80 bhagirath00/game-2048:latest
 ```
+
+Open your browser and navigate to: **[http://localhost:7071](http://localhost:7071)**
 
 ---
 
-### Step 2: `Run the Container`
+## Run Locally (Build from Source)
 
+If you want to build and run the image locally:
+
+### 1. Build the Docker Image
 ```bash
-docker run -d -p 7071:80 game-2048
+docker build -t game-2048:latest .
 ```
 
----
-
-🐳 Dockerfile Breakdown
-
-```plaintext
-- Installs required dependencies
-- Downloads and unzips the 2048 game
-- Configures Nginx to serve it on port 80
+### 2. Run the Container
+```bash
+docker run -d -p 7071:80 game-2048:latest
 ```
-
----
-
-☁️ Deployment (AWS Elastic Beanstalk)
-
-```plaintext
-Deployed using:
-- Elastic Beanstalk Docker environment
-- Single-container Docker deployment via AWS Console
-```
-
-🔗 Live App: http://2048-env.eba-5ub7akqw.ap-south-1.elasticbeanstalk.com/
-
----
-
-⭐️ Support
-
-```plaintext
-If you found this helpful or learned something, please consider giving this repo a ⭐️
-— it helps others discover the project and supports my work.
-
-```
-
----
